@@ -1,0 +1,100 @@
+.bg-custom {
+	background-color: #ff8080;
+}
+
+
+.navbar .nav-item:hover .nav-link {
+	background-color: white;
+	color: #303f9f;
+	border-radius: 15px;  
+}
+
+a.button{
+ display: inline-block;
+ padding: 20px 40px;
+ background-color:white;
+ text-decoration: none;
+ border-radius: 20px;
+}
+a.button.FCBayernMunchen{
+	background: #ffb3b3;
+	float: left;
+	height: 100px;
+	width: 350px;
+}
+
+a.button.FCBayernMunchen:hover{
+background-color:#ff6666;
+}
+
+a.button.RBLeipzig {
+	background-color: #d9d9d9;
+	float: right;
+	height: 100px;
+	width: 350px;
+}
+a.button.RBLeipzig:hover {
+	background-color: #f2f2f2;
+}
+
+a.button.BorussiaDortmund {
+	background-color: #ffffb3;
+	height: 100px;
+	width: 350px;
+}
+
+a.button.BorussiaDortmund:hover{
+	background-color:  #ffff1a;
+}
+
+a.button.VfLWolfsburg{
+	background-color:  #b3ffd9;
+	height: 100px;
+	width: 350px;
+}
+
+a.button.VfLWolfsburg:hover{
+	
+	background-color: #00ff00;
+}
+
+a.button.EintrachtFrankfurt {
+	background-color: #c2c2d6;
+	height: 100px;
+	width: 350px;
+}
+a.button.EintrachtFrankfurt:hover{
+  background-color: black;
+}
+a.button.Bayer04Leverkusen{
+	background-color: #ffb3b3;
+	height: 100px;
+	width: 350px;
+}
+a.button.Bayer04Leverkusen:hover{
+	background-color: red;
+}
+.div_left{	
+	float: left;
+	
+}
+
+.div_right{
+
+	position: relative; right: -500px;
+}
+.div_none{
+	
+	position: relative; left: -330px;
+}
+
+.div_left.div_top{
+	position: relative; top: 100px;
+}
+
+.div_none.div_top{
+	position: relative; left: 80px; top: 100px;
+}
+.div_right.div_top{
+	position: relative; left: 850px;
+}
